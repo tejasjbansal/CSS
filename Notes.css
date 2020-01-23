@@ -1,0 +1,158 @@
+					CSS
+1. <body style="background-color:  aqua;">
+2. <body style="background-color: #EAF6A6;">
+3. <head>
+               <style>
+            body {
+                background-color: aqua;
+            }
+	hr {
+                background-color: white;
+                border-style: none;
+	border-top-style: dotted none none;
+                height: 2px;
+	width: 30%;
+            }
+
+
+	 hr {
+	font-size: 200px;
+                border-color: gray;
+                border-style: dotted none none;
+                height: 0px;
+                border-width: 10px;
+                width: 5%;
+            }
+        </style>
+
+    </head>
+4.  <link rel="stylesheet" href="styles.css">
+5.  class selectors
+	<img class="name" src="https://www.google.com"  alt=" ">
+6.   how use it .name {
+		color: red;
+	}
+7. id selectors
+	<h1 id="heading">i love cricket</h1>
+8. #heading {
+}
+9. id is unique only use one time in whole programe but class is not unique you can use same class name.
+10. <h1 class=”brokkle  clsf”> </h1>     (two classes or more classes made). But you doest not make two id in single html element like <h1 id=”heading new”>   </h1>. 
+11. img:hover {
+Color: red;
+}
+12. favicon.cc to make new favicon.
+13. <div class=” ”>
+	{
+		background-color: blue;
+		height: 20px;
+	}
+14. CSS box model 
+	1. border
+	2. padding 
+	3. margin
+15. border: solid;
+   Margin-top: 0px;
+   Paddling: 10px;
+16. some elements are blocking the other elements ex: paragraph and heading
+Form etc.
+17. span does not block the element and images (<img> and <a>.
+<span style= “display: inline-block;”>
+	But in spans width does not change.
+	So to change the width we add display: inline-block; 
+</span>
+18. Display: block;
+   Display: inline;
+   Display: inline-block;
+   Display: none;
+19. for something hide 
+	One method is display: none;
+	Second is visibility: hidden;
+20. Position properties:
+(i). static is default.
+(ii). Relative
+(iii) Absolute
+(iv) Fixed
+Ex:  img {
+		Postion: relative;
+		Left:30px;
+	}
+21. Cordinates property to move an image
+{
+	top,bottom,left,right,
+}
+ex: img{
+	top: 20px;
+}
+In relative position adding a margin where the element should have been.
+ex:
+	.middle {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+
+	 background-color: blue;
+	
+
+}
+
+.bottom {
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	position: relative;
+	display: inline-block;
+	left: 100px;
+	/*bottom:   100px;
+	left: 100px;*/
+
+}
+.ll {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	display: inline-block;
+	background-color: green;
+	right: 105px;
+	/*left: 200px;
+	bottom: 200px;
+
+	*/
+}
+
+Absolute position
+in absolute position adding a margin to its parent element.
+affect the flow of html. but we freely move that anywhere without the others or coresponding to the whole body.
+
+parent and child 
+if one div contanier above the absolute continer than above relative container is the parent of the belows all containers.
+and the absolute containers are work on it not to the body.
+
+Fixed positining 
+div {
+		position: fixed;
+}
+for centering the part
+body {
+	margin: 0;
+	text-align: center;
+}
+if h1 having width so
+h1 {
+	margin-top: 0px; 
+	width: 10px;
+	margin: 0 auto;
+}
+
+Font Family
+(i) default font-family: serif;
+(ii) sans-serif.
+(iii) use vardana, sans-serif to not use arial.
+
+
+CSS sizing
+.id {
+	font-size: 5.23em;
+	font-size: 5.236rem; // does not takes body font-size if we done body font-sizing.(1 em = 16px)
+	font-size: 90px;
+}
